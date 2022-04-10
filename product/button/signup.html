@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form id="form_signup">
+        <div class="header"><h2>BookShop - Đăng kí tài khoản</h2></div>
+        <div class="main">
+            <input name="email" type="email" placeholder="Email">
+            <span id="email_err" class="error"></span>
+
+            <input name="password" type="password" placeholder="Mật Khẩu">
+            <span id="password_err" class="error"></span>
+
+            <input name="confirmPassword" type="password" placeholder="Nhập lại mật khẩu">
+            <span id="confirmPassword_err" class="error"></span>
+
+            <input name="phoneNumber" type="phoneNumber" placeholder="Nhập số điện thoại">
+            <span id="phoneNumber_err" class="error"></span>
+        </div>
+        
+        <button type="submit">Đăng Kí</button>
+
+        <div class="b">
+            <p>Bạn đã có tài khoản? <a href="login.html">Đăng Nhập</a></p>
+            <p><a href="home.html">Trang Chủ</a></p>
+        </div>
+    </form>
+
+    <script src="signup.js"></script>
+</body>
+</html>

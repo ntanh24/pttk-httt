@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    /* position: fixed; */
+    background-color: #fff;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 85px;
+}
+
+#tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#tab>img {
+    width: 45px;
+}
+
+.timkiem {
+    border: 1px solid #CDCFD0;
+}
+
+.input {
+    border-style: none;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.item-cn {
+    color: #7A7E7F;
+    padding: 10px;
+}
+
+.item-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.item-icon>img {
+    width: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
